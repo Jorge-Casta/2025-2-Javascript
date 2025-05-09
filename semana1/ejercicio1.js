@@ -1,4 +1,6 @@
-const { ask } = require('../helpers/input.js');
+// Clase 1: ¿Qué es programar? + Variables y Tipos de Datos
+
+const { ask } = require('../helpers/input');
 
 async function main() {
   const name = await ask('¿Cuál es tu nombre?');
